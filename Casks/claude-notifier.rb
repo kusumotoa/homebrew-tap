@@ -16,6 +16,12 @@ cask "claude-notifier" do
     On first run, macOS may ask you to allow notifications.
     You can manage this in System Settings > Notifications.
 
+    If you see a Gatekeeper warning, run:
+      xattr -d com.apple.quarantine /Applications/claude-notifier.app
+
+    Or reinstall with:
+      brew reinstall --no-quarantine claude-notifier
+
     Usage:
       claude-notifier -message "Hello" -actions "Yes,No" -timeout 30
   EOS
