@@ -1,6 +1,6 @@
 cask "localio" do
-  version "0.2.0"
-  sha256 "caf5f5cd3e273774d241c87d6ea84a639fab15e35c6a0057680174e5053ccc5c"
+  version "0.2.1"
+  sha256 "d5b72865f03a69f658dd1431404375a91b44932a4772037b89b46a3aa6fd1074"
 
   url "https://github.com/kusumotoa/localio-releases/releases/download/v#{version}/Localio_#{version}_aarch64.dmg"
   name "Localio"
