@@ -1,5 +1,5 @@
 cask "breezy" do
-  version "0.3.3"
+  version "0.3.4"
   sha256 :no_check
 
   url "https://github.com/kusumotoa/breezy-releases/releases/download/v#{version}/Breezy_#{version}_aarch64.dmg"
