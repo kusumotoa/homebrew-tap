@@ -1,5 +1,5 @@
 cask "fluffdrop" do
-  version "1.0.5"
+  version "1.0.6"
   sha256 :no_check
 
   url "https://github.com/kusumotoa/fluffdrop-releases/releases/download/v#{version}/FluffDrop_#{version}_aarch64.dmg"
