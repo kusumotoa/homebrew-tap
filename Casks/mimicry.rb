@@ -1,6 +1,6 @@
 cask "mimicry" do
-  version "5.1.1"
-  sha256 "c1c44d8edf7cd47b9ba487aa8144eced72762094db0cc037519ba39cd412df28"
+  version "5.2.0"
+  sha256 "89a7af003f8c5549518f36332f20e06cd9f54a4a40aac2a51dc91dbd538789be"
 
   url "https://github.com/kusumotoa/mimicry-releases/releases/download/v#{version}/Mimicry_#{version}_aarch64.dmg"
   name "Mimicry"
@@ -15,7 +15,7 @@ cask "mimicry" do
   depends_on macos: ">= :ventura"
 
   app "Mimicry.app"
-  binary "#{appdir}/Mimicry.app/Contents/Resources/mimicry"
+  binary "#{appdir}/Mimicry.app/Contents/MacOS/Mimicry", target: "mimicry"
 
   zap trash: [
     "~/Library/Application Support/mimicry",
