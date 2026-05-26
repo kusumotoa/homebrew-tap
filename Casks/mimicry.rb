@@ -1,6 +1,6 @@
 cask "mimicry" do
-  version "6.0.7"
-  sha256 "2e3a4d67e812d0c990c91f45c6a5919c40220a512b1b74ccc9a8f90760b9b683"
+  version "6.0.8"
+  sha256 "9f3016a06b934b3014783a71d8f7226c9d752c256b983ab9841ba2361cb367b9"
 
   url "https://github.com/kusumotoa/mimicry-releases/releases/download/v#{version}/Mimicry_#{version}_universal.dmg"
   name "Mimicry"
