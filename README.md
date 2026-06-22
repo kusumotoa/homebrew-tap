@@ -12,6 +12,7 @@ brew tap kusumotoa/tap
 
 | Cask | Description |
 |---|---|
+| `appforceps` | iOS Data Container Editor (Simulator + 実機) |
 | `breezy` | macOS menu bar app to sync directories between Macs via iCloud |
 | `fluffdrop` | macOS menu bar app to receive files from any device via browser |
 | `launchd-manager` | macOS launchd Agent Manager |
@@ -19,6 +20,7 @@ brew tap kusumotoa/tap
 | `mimicry` | HTTP/HTTPS proxy & mock tool for iOS/Android development |
 
 ```bash
+brew install --cask appforceps
 brew install --cask breezy
 brew install --cask fluffdrop
 brew install --cask launchd-manager
