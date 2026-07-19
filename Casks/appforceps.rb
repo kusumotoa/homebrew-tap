@@ -4,7 +4,7 @@ cask "appforceps" do
 
   url "https://github.com/kusumotoa/AppForceps-releases/releases/download/v#{version}/AppForceps_#{version}_aarch64.dmg"
   name "AppForceps"
-  desc "iOS Data Container Editor (Simulator + 実機)"
+  desc "iOS / Android Data Container Editor (Simulator/Emulator + 実機)"
   homepage "https://github.com/kusumotoa/AppForceps-releases"
 
   livecheck do
