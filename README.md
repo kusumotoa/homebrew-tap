@@ -12,7 +12,7 @@ brew tap kusumotoa/tap
 
 | Cask | Description |
 |---|---|
-| `appforceps` | iOS / Android Data Container Editor |
+| `appforceps` | iOS / Android App Data Editor |
 | `breezy` | macOS menu bar app to sync directories between Macs via iCloud |
 | `fluffdrop` | macOS menu bar app to receive files from any device via browser |
 | `launchd-manager` | macOS launchd Agent Manager |
