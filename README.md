@@ -18,6 +18,7 @@ brew tap kusumotoa/tap
 | `launchd-manager` | macOS launchd Agent Manager |
 | `localio` | macOS menu bar app to run scripts via HTTP requests |
 | `mimicry` | HTTP/HTTPS proxy & mock tool for iOS/Android development |
+| `portreaper` | macOS app to list and kill leftover development servers by port |
 
 ```bash
 brew install --cask appforceps
@@ -26,4 +27,5 @@ brew install --cask fluffdrop
 brew install --cask launchd-manager
 brew install --cask localio
 brew install --cask mimicry
+brew install --cask portreaper
 ```
