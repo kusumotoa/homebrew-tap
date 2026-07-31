@@ -1,6 +1,6 @@
 cask "portreaper" do
-  version "1.0.1"
-  sha256 "a7babbf6775548d715bef7d02aecb15bfd1289d6dc0b884ff23625d112de6040"
+  version "1.0.2"
+  sha256 "cad13cbfbc900a4863b9e2c82d7fa21ee93ab2d24c12f1a6e145ef5b3a2a9d70"
 
   url "https://github.com/kusumotoa/portreaper-releases/releases/download/v#{version}/PortReaper_#{version}_aarch64.dmg"
   name "PortReaper"
