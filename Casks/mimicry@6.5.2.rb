@@ -8,7 +8,7 @@ cask "mimicry@6.5.2" do
   homepage "https://github.com/kusumotoa/Mimicry"
 
   conflicts_with cask: "mimicry"
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Mimicry.app"
   binary "#{appdir}/Mimicry.app/Contents/MacOS/Mimicry", target: "mimicry"

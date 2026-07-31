@@ -12,7 +12,7 @@ cask "mimicry" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Mimicry.app"
   binary "#{appdir}/Mimicry.app/Contents/MacOS/Mimicry", target: "mimicry"
