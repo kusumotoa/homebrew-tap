@@ -1,6 +1,6 @@
 cask "breezy" do
   version "0.5.0"
-  sha256 :no_check
+  sha256 "11add6e0b2f73700286b270226e33e16f80157ceef32e7cbefa1dcbc1cc8a2f5"
 
   url "https://github.com/kusumotoa/breezy-releases/releases/download/v#{version}/Breezy_#{version}_aarch64.dmg"
   name "Breezy"
