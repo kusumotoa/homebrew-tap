@@ -15,6 +15,7 @@ cask "appforceps" do
   depends_on macos: :ventura
 
   app "AppForceps.app"
+  binary "#{appdir}/AppForceps.app/Contents/MacOS/appforceps", target: "appforceps"
 
   zap trash: [
     "~/Library/Application Support/com.kusumoto.appforceps",
