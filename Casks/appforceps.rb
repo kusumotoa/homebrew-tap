@@ -1,6 +1,6 @@
 cask "appforceps" do
-  version "2.0.33"
-  sha256 "17f6f3e09f35423094469d5e55714c742ba804efc35248629bff8b8282be41d8"
+  version "2.0.34"
+  sha256 "f3d70944e2a3475d655c71bbf0f2650aff3e5ed4cadf1a97c0698fb2b99044e6"
 
   url "https://github.com/kusumotoa/AppForceps-releases/releases/download/v#{version}/AppForceps_#{version}_aarch64.dmg"
   name "AppForceps"
