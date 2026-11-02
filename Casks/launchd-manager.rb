@@ -12,13 +12,15 @@ cask "launchd-manager" do
     strategy :github_latest
   end
 
-  depends_on macos: :ventura
+  # アプリの要件（tauri.conf.json の minimumSystemVersion 14.0・Apple Silicon のみ）に合わせる
+  depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "launchd Manager.app"
 
   zap trash: [
-    "~/Library/Application Support/launchd-manager",
-    "~/Library/Preferences/com.kusumoto.launchd-manager.plist",
+    "~/Library/Application Support/com.kusumoto.launchd-manager",
     "~/Library/Caches/com.kusumoto.launchd-manager",
+    "~/Library/Preferences/com.kusumoto.launchd-manager.plist",
   ]
 end
