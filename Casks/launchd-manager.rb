@@ -1,6 +1,6 @@
 cask "launchd-manager" do
-  version "0.7.8"
-  sha256 "4abf94fc85b5ebd71fa4eab98a5e2dd513da892f7d6ba57884660442f2dec922"
+  version "0.7.9"
+  sha256 "c739867d9ff929316b974a72ef18e97c95d23e1ecaf47057c3105e3334827e83"
 
   url "https://github.com/kusumotoa/launchd-manager-releases/releases/download/v#{version}/launchd.Manager_#{version}_aarch64.dmg"
   name "launchd Manager"
