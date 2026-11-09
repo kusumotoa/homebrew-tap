@@ -18,8 +18,16 @@ cask "mimicry" do
   binary "#{appdir}/Mimicry.app/Contents/MacOS/Mimicry", target: "mimicry"
 
   zap trash: [
+    "~/.mimicry",
+    "~/Library/Application Support/com.mimicry.app",
+    "~/Library/Application Support/com.mimicry.proxy",
     "~/Library/Application Support/mimicry",
-    "~/Library/Preferences/com.mimicry.app.plist",
     "~/Library/Caches/com.mimicry.app",
+    "~/Library/Caches/com.mimicry.proxy",
+    "~/Library/HTTPStorages/com.mimicry.proxy",
+    "~/Library/Preferences/com.mimicry.app.plist",
+    "~/Library/Preferences/com.mimicry.proxy.plist",
+    "~/Library/Saved Application State/com.mimicry.proxy.savedState",
+    "~/Library/WebKit/com.mimicry.proxy",
   ]
 end
