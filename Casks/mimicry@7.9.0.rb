@@ -1,10 +1,10 @@
-cask "mimicry@7.8.55" do
-  version "7.8.55"
-  sha256 "f211ee66ddaea042aa305ba928a59fc7826e12a5748b8744099f39dc7aa7f7b1"
+cask "mimicry@7.9.0" do
+  version "7.9.0"
+  sha256 "ced72ff9b75478b850844a263829329087ee78f5b504aed2e9974cd80c5d1d63"
 
-  url "https://github.com/kusumotoa/mimicry-releases/releases/download/v7.8.55/Mimicry_7.8.55_aarch64.dmg"
+  url "https://github.com/kusumotoa/mimicry-releases/releases/download/v7.9.0/Mimicry_7.9.0_aarch64.dmg"
   name "Mimicry"
-  desc "HTTP/HTTPS proxy & mock tool for iOS/Android development (pinned to v7.8.55)"
+  desc "HTTP/HTTPS proxy & mock tool for iOS/Android development (pinned to v7.9.0)"
   homepage "https://github.com/kusumotoa/Mimicry"
 
   conflicts_with cask: "mimicry"
